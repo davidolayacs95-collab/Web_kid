@@ -86,9 +86,11 @@ margin-left: 130px;
     margin-left: 120px;
 }
 
-.titulo-five h1{
 
- margin-left: 300px;
-
+@media (max-width: 768px) {
+  .third-part {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
